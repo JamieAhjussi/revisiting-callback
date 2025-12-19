@@ -1,14 +1,16 @@
 /* 
 1. Callback & Higher-Order Function มีข้อดีอย่างไร
-Answer:
+Answer: สะดวกต่อการเรียก Function เดิมมาใช้งานใหม่
 
 
 2. จากการลองใช้ Callback Function ในระบบเกมและระบบแจ้งเตือน คุณคิดว่าโค้ดอ่านง่ายขึ้นหรือไม่ เพราะอะไร 
-Answer:
+Answer: อ่านง่ายขึ้น เพราะปริมาณโค้ดที่ต้องอ่านมีน้อยลง
 
 
 3. หากต้องสอนเพื่อนให้เข้าใจ Callback & Higher-Order Function ใน 5 นาที จะอธิบายอย่างไร 
-Answer:  
+Answer:  ถ้าเราเรียกใช้งาน function โดยไม่ใช้ประโยชน์จาก callback & higher-order function เราจะต้องเขียน function 
+        ใหม่ทุกครั้งที่เราจะใช้งาน แถมยังต้องคิดชื่อ function ใหม่เสมอๆซึ่งเป็นเรื่องที่ยุ่งยาก
+        callback & higher-order function จะมาช่วยเราในส่วนนี้ มันสามารถดึง function เก่าที่เราเคยเขียนไว้เพื่อนำมาใช้งานได้ซ้ำๆ 
 
 
 */
